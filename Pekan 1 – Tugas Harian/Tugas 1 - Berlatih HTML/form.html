@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3>
+    <form action="welcome.html" method="post">
+        <p>First name:</p>
+        <input type="text" id="fname" name="fname" value="">
+        <p>Last name:</p>
+        <input type="text" id="lname" name="lname" value="">
+        <p>Gander:</p>
+        <input type="radio" id="male" name="gander" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gander" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gander" value="Other">
+        <label for="other">Other</label>
+        <p>Nationality:</p>
+        <select name="nationality">
+            <option value="indonesian">Indonesian</option>
+            <option value="australian">Australian</option>
+            <option value="american">American</option>
+            <option value="other">Other</option>
+        </select>
+        <p>Language Spoken:</p>
+        <input type="checkbox" id="language1" name="language1" value="bahasa">
+        <label for="language1"> Bahasa Indonesia</label><br>
+        <input type="checkbox" id="language2" name="language2" value="english">
+        <label for="language2"> English</label><br>
+        <input type="checkbox" id="language3" name="language3" value="other">
+        <label for="language3"> Other</label>
+        <p>Bio:</p>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
